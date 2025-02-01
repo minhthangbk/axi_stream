@@ -52,8 +52,8 @@ module axi_stream_cut #(
 endmodule : axi_stream_cut
 
 
-`include "axi_stream/assign.svh"
-`include "axi_stream/typedef.svh"
+`include "include/axi_stream/assign.svh"
+`include "include/axi_stream/typedef.svh"
 
 /// An AXI4 Stream cut (interface wrapper).
 module axi_stream_cut_intf #(

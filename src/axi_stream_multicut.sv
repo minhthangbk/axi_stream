@@ -84,8 +84,8 @@ module axi_stream_multicut #(
 endmodule
 
 
-`include "axi_stream/assign.svh"
-`include "axi_stream/typedef.svh"
+`include "include/axi_stream/assign.svh"
+`include "include/axi_stream/typedef.svh"
 
 // interface wrapper
 module axi_stream_multicut_intf #(

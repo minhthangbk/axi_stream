@@ -187,8 +187,8 @@ module axi_stream_dw_downsizer #(
 endmodule
 
 
-`include "axi_stream/assign.svh"
-`include "axi_stream/typedef.svh"
+`include "include/axi_stream/assign.svh"
+`include "include/axi_stream/typedef.svh"
 
 /// An AXI Stream downsizer (interface wrapper).
 module axi_stream_dw_downsizer_intf #(
