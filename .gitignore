@@ -8,3 +8,7 @@ work
 modelsim.ini
 transcript
 *.wlf
+src/axi_stream_cut.sv.bak
+src/axi_stream_dw_downsizer.sv.bak
+src/axi_stream_dw_upsizer.sv.bak
+src/axi_stream_multicut.sv.bak
